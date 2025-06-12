@@ -6,6 +6,11 @@
    /* border: solid red;*/
   }
 
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +54,12 @@
     height: 30px;
 
   }
+  .panier_container{
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  }
   
   .header-left, .header-right {
     display: flex;
@@ -64,7 +75,7 @@
   }
 
   .hero {
-    background-image: url('img/image/1.jpg');
+    background-image: url('../img/image/1.jpg');
     background-position: center;
     background-size: cover;
   }
@@ -135,7 +146,7 @@
   }
   .carre-gris {
     padding: 40px;
-   background-image: url('img/image/11.jpg');
+   background-image: url('../img/image/étapes.jpg');
     width: 300px;
     height: 300px;
     display: flex;
@@ -253,27 +264,42 @@ margin-top: 100px;
   
   .bestseller-title {
     text-align: left;
-    font-weight: 100;
+    font-weight: 600;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 17px;
+   
   }
   
   .bestseller-price {
     text-align: left;
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 10px;
+
+    font-size: 17px;
+    font-weight:600 ;
   }
  
   .bestseller-info {
     display: flex;
+    font-size: 100px;
     justify-content: space-between;
+    margin-top: 5‰;
+   
+   
   }
 
+  .info-p {
+
+    margin-top: 10%;
+    font-size: 15px;
+  }
+
+
+
   .newsletter-section {
-    background-image: url('img/image/1.jpg');
+    background-image: url('../img/image/Baniere\ de\ fin.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 40px 0;
+    padding: 150px 0;
     margin-top: 10%;
     text-align: center;
   }
@@ -281,7 +307,7 @@ margin-top: 100px;
   .newsletter-content {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #e5e5e5;
   }
   
@@ -383,4 +409,16 @@ margin-top: 100px;
     align-items: center;
     gap: 5px;
     margin-left: 550%;
+}
+
+.search-bar {
+  input {
+    border: none;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
+.avatar {
+  background-image: url('.');
 }

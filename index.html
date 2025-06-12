@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skineal</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
@@ -21,12 +21,19 @@
     <nav class="header-left">
       <a href="#">Diagnostic</a>
       <a href="#">Nos soins</a>
-      <a href="#">À propos</a>
+      <a href="#">Contact</a>
     </nav>
-    <img class="logo" src="img/logo/Logo couleur.png" alt="">
+    <a href="./index.html"><img class="logo" src="img/logo/Logo couleur.png" alt=""></a>
     <nav class="header-right">
-      <a href="#">Recherche</a>
-      <img class="panier" src="img/logo/panier.png" alt="">
+      <div class="search-bar">
+        <img src="img/logo/Search.png">
+        <input type="text" placeholder="Rechercher">
+      </div>
+  
+      <div class="panier_container">
+        <img class="panier" src="img/logo/panier.png" alt="">
+        <p>3</p>
+      </div>
       <a href="#">Mon Compte</a>
     </nav>
   </header>
@@ -108,47 +115,46 @@
 
 
     <div class="bestseller-grid">
-      <div class="bestseller-item">
-        <img class="bestseller-img" src="img/image/15.png" alt="">
+      <a href="./pages/product.html" class="bestseller-item">
+        <img class="bestseller-img" src="img/image/23.png" alt="">
+        <div class="bestseller-info">
+          <p class="bestseller-title">Antipodes</p>
+          <p class="bestseller-price">39 €</p>
+        </div>
+        <p class="info-p">Glow Vitamin C Sérum Éclat</p>
+      </a>
+      <a href="./pages/product.html" class="bestseller-item">
+        <img class="bestseller-img" src="img/image/16.png" alt="">
         <div class="bestseller-info">
           <p class="bestseller-title">Pyunkang Yul</p>
-          <p class="bestseller-price">17,58 €</p>
+          <p class="bestseller-price">34,24 €</p>
         </div>
-        <p>Brightening Blemish Care Serum</p>
-      </div>
-      <div class="bestseller-item">
-        <img class="bestseller-img" src="img/image/15.png" alt="">
+        <p class="info-p">Calming Line Gift Set</p>
+      </a>
+      <a href="./pages/product.html" class="bestseller-item">
+        <img class="bestseller-img" src="img/image/17.png" alt="">
         <div class="bestseller-info">
-          <p class="bestseller-title">Pyunkang Yul</p>
-          <p class="bestseller-price">17,58 €</p>
+          <p class="bestseller-title">S.NATURE </p>
+          <p class="bestseller-price">19,95 €</p>
         </div>
-        <p>Brightening Blemish Care Serum</p>
-      </div>
-      <div class="bestseller-item">
-        <img class="bestseller-img" src="img/image/15.png" alt="">
+        <p class="info-p">Aqua Squalane Serum</p>
+      </a>
+      <a href="./pages/product.html" class="bestseller-item">
+        <img class="bestseller-img" src="img/image/18.png" alt="">
         <div class="bestseller-info">
-          <p class="bestseller-title">Pyunkang Yul</p>
-          <p class="bestseller-price">17,58 €</p>
+          <p class="bestseller-title">Heimish</p>
+          <p class="bestseller-price">34,24 €</p>
         </div>
-        <p>Brightening Blemish Care Serum</p>
-      </div>
-      <div class="bestseller-item">
-        <img class="bestseller-img" src="img/image/15.png" alt="">
-        <div class="bestseller-info">
-          <p class="bestseller-title">Pyunkang Yul</p>
-          <p class="bestseller-price">17,58 €</p>
-        </div>
-        <p>Brightening Blemish Care Serum</p>
-      </div>
+        <p class="info-p">Hyaluronic Acid Rich Whipped Cream</p>
+      </a>
 
     </div>
 
     <section class="newsletter-section">
       <div class="container">
         <div class="newsletter-content">
-          <p class="newsletter-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+          <p class="newsletter-text">Recevez des conseils personnalisés, des nouveautés et des offres exclusives
+            Grâce à notre intelligence artificielle, accédez à une routine skincare sur-mesure, pensée pour votre peau. Ne manquez rien pour prendre soin de vous, au quotidien.</p>
           <button class="signup-button">S'INSCRIRE</button>
         </div>
       </div>
@@ -193,11 +199,11 @@
             </div>
 
             <div class="social-icons">
-              <div class="social-icon"><img src="img/logo/Tiktok.png" class="social-icon-img" alt="" srcset=""></div>
-              <div class="social-icon"><img src="img/logo/instagram.png" class="social-icon-img" alt="" srcset=""></div>
-              <div class="social-icon"><img src="img/logo/LinkedIn" class="social-icon-img" alt="" srcset=""></div>
-              <div class="social-icon"><img src="img/logo/Pinterest.png" class="social-icon-img" alt="" srcset=""></div>
-              <div class="social-icon"><img src="img/logo/Youtube.png" class="social-icon-img" alt="" srcset=""></div>
+              <div class="social-icon"><img src="./img/logo/Tiktok.jpg" class="social-icon-img" alt="" srcset=""></div>
+              <div class="social-icon"><img src="./img/logo/instagram.png" class="social-icon-img" alt="" srcset=""></div>
+              <div class="social-icon"><img src="./img/logo/LinkedIn" class="social-icon-img" alt="" srcset=""></div>
+              <div class="social-icon"><img src="./img/logo/Pinterest.png" class="social-icon-img" alt="" srcset=""></div>
+              <div class="social-icon"><img src="./img/logo/Youtube.png" class="social-icon-img" alt="" srcset=""></div>
             </div>
           </div>
         </div>
