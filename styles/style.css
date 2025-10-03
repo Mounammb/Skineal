@@ -17,7 +17,7 @@
   }
 
   .top-header {
-    background: #6a5046;
+    background: #65544A;
     color: white;
     display: flex;
     justify-content: center;
@@ -75,9 +75,10 @@
   }
 
   .hero {
-    background-image: url('../img/image/1.jpg');
+    background-image: url('../img/image/1.png');
     background-position: center;
     background-size: cover;
+    padding: -5%;
   }
 
 
@@ -93,25 +94,47 @@
     background: white;
     padding: 40px;
     width: 400px;
-    height: 200px;
+    height: 260px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.5); /* bleu semi-transparent */
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: left;
+  
+    
   }
 
+ .accroche{
+margin-top: 7%;
+padding-bottom: 3%;
+
+
+ }
   .diagnostic_container {
-    width: 80%;
+    width: 90%;
     display: flex;
+    opacity:50‰;
+    text-align: center;
+    margin-top: 10%;
+
     justify-content: flex-start;
   }
   
   .btn-diagnostic {
-    background: #6a5046;
+    
+    background: #65544A;
     color: white;
     border: none;
-    padding: 12px 20px;
+    padding: 16px 20px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
+    width: 90%;
     cursor: pointer;
+    
+  }
+  .btn-diagnostic:hover {
+    background-color: #AEA49A;
   }
 
    
@@ -120,7 +143,8 @@
     padding: 60px 20px;
   }
   .title-color {
-    color : #6a5046;
+    padding: -4%;
+    color : #000000;
 
   }
 
@@ -141,12 +165,12 @@
   .etape-container {
     display: flex;
     flex-direction: column;
-    color: #a48275;
+    color: #000000;
     align-items: center;
   }
   .carre-gris {
     padding: 40px;
-   background-image: url('../img/image/étapes.jpg');
+   background-image: url('../img/image/A.png');
     width: 300px;
     height: 300px;
     display: flex;
@@ -154,6 +178,7 @@
     justify-content: center;
     margin-bottom: 15px;
     flex-direction: column;
+
 
   h3 {
       font-size: 17px;
@@ -170,7 +195,22 @@
       
     }
   }
+  .picto-A, .picto-B,.picto-C {
+display: flex;
+    width: 10px;  
+margin: 1%;
+    height: 250px;
+    
   
+  }
+
+  .C {
+    margin-top: 5%;
+margin-right: 20%;
+    display: flex;          /* active le mode flex */
+    justify-content: space-around; /* espace entre les pictos */
+    align-items: center;    
+  }
   .best-img {
     background: #bbb;
   margin-top: 60%;
@@ -179,18 +219,23 @@
     margin: 10px;
   }
   .bouton-shop {
-    border: 1px solid black;
-    background: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #65544A;
     padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
     margin-top: 45px;
     cursor: pointer;
+  }
+  .bouton-shop:hover {
+    background-color: #AEA49A;
   }
   
   .texte-section {
     max-width: 600px;
     margin: 10px auto;
-    margin-top: 3%;
-    color: #a48275;
+    margin-top: 5%;
+    color: #000000;
   }
 
   
@@ -236,7 +281,7 @@
   .section-title{
 display: flex;
 justify-content:center;
-color :#6a5046;
+color :#000000;
 margin-top: 100px;
   }
 
@@ -308,7 +353,11 @@ margin-top: 100px;
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #e5e5e5;
+    opacity: 50‰;
+    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0.5); /* bleu semi-transparent */
+    color: rgb(0, 0, 0);
+    
   }
   
   .newsletter-text {
@@ -318,14 +367,19 @@ margin-top: 100px;
   }
   
   .signup-button {
-    background-color: #fff;
+    background-color: #65544A;
     border: none;
+    color: #ffffff;
     padding: 12px 40px;
     cursor: pointer;
     margin-top: 10px;
     text-transform: uppercase;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .signup-button:hover {
+    background-color: #AEA49A;
   }
 
     /*footer,*/

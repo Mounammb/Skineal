@@ -17,7 +17,7 @@
     justify-content: center;
     gap:20px;
     font-size: 12px;
-    padding: 10px;
+    padding: 9px;
   }
   
   header {
@@ -204,13 +204,16 @@
   }
   
   .buy-button {
-    background: black;
+    background: #65544A;
     color: white;
     padding: 12px 24px;
     border: none;
     font-size: 16px;
     cursor: pointer;
     width: 300px;
+  }
+  .buy-button:hover {
+    background-color: #AEA49A;
   }
   
   .payment-shipping {
@@ -412,9 +415,13 @@ padding: -10px;
   .submit-review {
     display: block;
     padding: 10px 20px;
-    border: 1px solid black;
-    background: white;
+    color: #ffffff;
+    background: #65544A;
+    border: none;
     cursor: pointer;
+  }
+.submit-review:hover {
+    background-color: #AEA49A;
   }
   
   .customer-reviews {
@@ -523,12 +530,15 @@ padding: -10px;
 }
 
 .newsletter-button {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color:  hsl(22, 15%, 34%);
+    border:none;
     padding: 0 15px;
+    color: #ffffff;
     cursor: pointer;
 }
-
+.newsletter-button:hover {
+  background-color: #AEA49A;
+}
 .social-icons {
     display: flex;
     gap: 10px;
